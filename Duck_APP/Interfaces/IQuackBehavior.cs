@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Refactored_Duck_app
+namespace Duck_APP.Interfaces
 {
-    public interface IFlyBehavior
+    public interface IQuackBehavior
     {
-        
-        public void Fly();
+        public void QuackSound();
     }
 }
