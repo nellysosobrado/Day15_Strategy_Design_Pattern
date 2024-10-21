@@ -14,7 +14,7 @@
             Console.WriteLine("Model duck");
             modelduck.performQuack();
             modelduck.performFly();
-            modelduck.SetFlyBehavior(new FlyRocketPowered());
+            modelduck.SetFlyBehavior(new FlyRocketPowered()); //creates a new instnace
             modelduck.performFly();
 
         }
