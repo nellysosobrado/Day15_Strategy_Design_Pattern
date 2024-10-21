@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimUDuck", "SimUDuck", "{D3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimUDuck", "SimUDuck\SimUDuck.csproj", "{D2E8E8FC-79F9-4ED6-B8E2-D18CF1349E4E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimUDuck_Refactored", "SimUDuck_Refactored", "{EDF39D9F-E477-4249-BCE8-2243080C3CAE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimUDuck_with_Interface", "SimUDuck_with_Interface", "{EDF39D9F-E477-4249-BCE8-2243080C3CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactored_Duck_app", "Refactored_Duck_app\Refactored_Duck_app.csproj", "{84CB8E99-B82A-4154-9B19-EA5934FE55C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D2E8E8FC-79F9-4ED6-B8E2-D18CF1349E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E8E8FC-79F9-4ED6-B8E2-D18CF1349E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E8E8FC-79F9-4ED6-B8E2-D18CF1349E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CB8E99-B82A-4154-9B19-EA5934FE55C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CB8E99-B82A-4154-9B19-EA5934FE55C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CB8E99-B82A-4154-9B19-EA5934FE55C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CB8E99-B82A-4154-9B19-EA5934FE55C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{43FD2A75-1578-436D-9ACB-FCAD0DD91EF7} = {E733E8A5-C1EA-4D57-9532-0D9F808613BD}
 		{E0F66245-6031-4CD3-8EF5-27C6CF663CFC} = {B34513BA-2BBC-4B14-8F9C-56FFAE59DE5B}
 		{D2E8E8FC-79F9-4ED6-B8E2-D18CF1349E4E} = {D3FF9C47-C2BE-4803-AB8F-4406F7B63D44}
+		{84CB8E99-B82A-4154-9B19-EA5934FE55C7} = {EDF39D9F-E477-4249-BCE8-2243080C3CAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3943E524-F3D3-4E39-BE1D-EC05688D50D8}
